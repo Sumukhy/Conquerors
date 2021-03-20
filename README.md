@@ -18,13 +18,29 @@
 * The LoRa receiver receives this data and sends it to the cloud. From the cloud, the municipality can take action to scrub that area.  All this data is shipped to the corporation for the upkeep of cleanliness and keeping the environment clean. 
 * In the present scenario, most of the countries the sensors introduced by the Municipal Authorities are static and accordingly, placed only in a few select locations. 
 * Given the increased attention to cleanliness amongst the cities (like Swachh Bharat Abhiyan (Clean India Mission) and Ranking of Cities based on cleanliness in India), the project can support relevant authorities for ensuring better living conditions by reducing the hazardous odor and timely waste collection by using the proposed system which can be a moving sensor that can detect the foul smell in any part of the cities.
-  
-  
-## Hardware Requirements
-1 Heltec ESP32
-/home/hp/Downloads/esp32.jpeg
-
 ![image](https://user-images.githubusercontent.com/56267948/111866602-a6b55980-8994-11eb-81c0-58f956ade8ae.png)
+
+
+## Hardware Requirements
+1.Heltec ESP32 
+
+![image](https://user-images.githubusercontent.com/56267948/111869202-37dffc80-89a4-11eb-8e66-d0d602b2f506.png)
+
+
+ESP32 can perform as a complete standalone system or as a slave device to a host MCU, reducing communication stack overhead on the main application processor. ESP32 can interface with other systems to provide Wi-Fi and Bluetooth functionality through its SPI / SDIO or I2C / UART interfaces.
+
+2.  MQ Series Sensor
+   
+   ![image](https://user-images.githubusercontent.com/56267948/111869540-1122c580-89a6-11eb-88d7-4be8ac154b9b.png)
+
+
+Gas sensors (also known as gas detectors) are electronic devices that detect and identify different types of gasses. They are commonly used to detect toxic or explosive gasses and measure gas concentration. Gas sensors are employed in factories and manufacturing facilities to identify gas leaks, and to detect smoke and carbon monoxide in homes.
+  
+ 
+                                                                                                                                                               
+
+
+
 
 
 
