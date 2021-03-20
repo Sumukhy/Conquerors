@@ -19,6 +19,10 @@
 * In the present scenario, most of the countries the sensors introduced by the Municipal Authorities are static and accordingly, placed only in a few select locations. 
 * Given the increased attention to cleanliness amongst the cities (like Swachh Bharat Abhiyan (Clean India Mission) and Ranking of Cities based on cleanliness in India), the project can support relevant authorities for ensuring better living conditions by reducing the hazardous odor and timely waste collection by using the proposed system which can be a moving sensor that can detect the foul smell in any part of the cities.
   
+  
+## Hardware Requirements
+1 Heltec ESP32
+/home/hp/Downloads/esp32.jpeg
 
 ![image](https://user-images.githubusercontent.com/56267948/111866602-a6b55980-8994-11eb-81c0-58f956ade8ae.png)
 
