@@ -8,6 +8,7 @@
  
  ## Introduction
    
+
  -->The odor sensing device we proposed in this paper continuously detects, measures, and monitors the odorful gaseous contaminants. 
 *The solution incorporates Odor Atmospheric Dispersion Modelling (OADM) for predicting odor impact on the surrounding area depending on meteorological conditions. 
 *With the help of meteorological data, the odor sensing device can trace the odorant dispersion plume incited by conditions like wind speed and wind direction.
@@ -20,4 +21,7 @@
   
 
 ![image](https://user-images.githubusercontent.com/56267948/111866602-a6b55980-8994-11eb-81c0-58f956ade8ae.png)
+
+
+
 
