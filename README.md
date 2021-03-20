@@ -8,7 +8,7 @@
  
  ## Introduction
    
-'''The odor sensing device we proposed in this paper continuously detects, measures, and monitors the odorful gaseous contaminants. '''
+ -->The odor sensing device we proposed in this paper continuously detects, measures, and monitors the odorful gaseous contaminants. 
 *The solution incorporates Odor Atmospheric Dispersion Modelling (OADM) for predicting odor impact on the surrounding area depending on meteorological conditions. 
 *With the help of meteorological data, the odor sensing device can trace the odorant dispersion plume incited by conditions like wind speed and wind direction.
 *The odor sensing device uses LoRa LPWAN (a low-power wide-area network) technology network, which is one of the best cost-effective approaches in such conditions.
