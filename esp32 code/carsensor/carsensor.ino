@@ -24,7 +24,17 @@ void loop() {
   Heltec.display->drawString(0, 10, s);
   // write the buffer to the display
   Heltec.display->display();
-  
+  if ((s2>3400)){
+    LoRa.beginPacket();
+   LoRa.setTxPower(14,RF_PACONFIG_PASELECT_PABOOST);
+    LoRa.print(s);
+    LoRa.endPacket();
+    Heltec.display->clear();
+    Heltec.display->drawString(0, 10, "sent");
+    Heltec.display->display();
+    //while (true){};
+    delay(1000);
+  }
   
   delay(10);
 }
