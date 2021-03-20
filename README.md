@@ -18,6 +18,8 @@
 * The LoRa receiver receives this data and sends it to the cloud. From the cloud, the municipality can take action to scrub that area.  All this data is shipped to the corporation for the upkeep of cleanliness and keeping the environment clean. 
 * In the present scenario, most of the countries the sensors introduced by the Municipal Authorities are static and accordingly, placed only in a few select locations. 
 * Given the increased attention to cleanliness amongst the cities (like Swachh Bharat Abhiyan (Clean India Mission) and Ranking of Cities based on cleanliness in India), the project can support relevant authorities for ensuring better living conditions by reducing the hazardous odor and timely waste collection by using the proposed system which can be a moving sensor that can detect the foul smell in any part of the cities.
+
+## Proposed System
 ![image](https://user-images.githubusercontent.com/56267948/111866602-a6b55980-8994-11eb-81c0-58f956ade8ae.png)
 
 
@@ -35,9 +37,33 @@ ESP32 can perform as a complete standalone system or as a slave device to a host
 
 
 Gas sensors (also known as gas detectors) are electronic devices that detect and identify different types of gasses. They are commonly used to detect toxic or explosive gasses and measure gas concentration. Gas sensors are employed in factories and manufacturing facilities to identify gas leaks, and to detect smoke and carbon monoxide in homes.
-  
  
-                                                                                                                                                               
+ ## Block Diagram
+ ![image](https://user-images.githubusercontent.com/56267948/111881548-dc7b3200-89d6-11eb-93cb-de6d0e7b1520.png)
+
+* Firebase – to fetch database
+* MapBox- for maps
+* PyQt5- for creating GUI
+* MQ Series Sensors- Odor detection 
+* LoRa- to receive and send the data
+* ESP32- microcontroller
+
+
+## Advantages of the device is as follows:
+ *   Quality of the air can be measured. 
+ *   Prevents spreading of disease by detecting the foul smell of dead animals.
+ *   Municipal’s will get the locations to be cleaned. 
+     
+ ## Snapshots
+![image](https://user-images.githubusercontent.com/56267948/111880876-d8014a00-89d3-11eb-86e6-8d30ee08a9b3.png)
+![image](https://user-images.githubusercontent.com/56267948/111881660-8eb2f980-89d7-11eb-840c-77e8fb3632b4.png)
+![image](https://user-images.githubusercontent.com/56267948/111881699-c621a600-89d7-11eb-95b7-4dbed53349fe.png)
+![image](https://user-images.githubusercontent.com/56267948/111881717-d5a0ef00-89d7-11eb-8b18-bbdc25784c96.png)
+
+  
+  ## Conclusion 
+  This project has introduced a system-based odor detection and tracking that can be fitted on a vehicle with the support of the network and an App. The results on map provide the areas where the odor intensity is more and accordingly waste collection plan can be initiated. Further, the system can also be used as a base support indicator for placing the right sized bins keeping in view of the volumes of waste generation or on account of repeated triggers.
+ 
 
 
 
